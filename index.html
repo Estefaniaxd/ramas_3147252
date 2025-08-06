@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Formulario API</title>
+</head>
+<body>
+
+  <form action="https://formsubmit.co/estefanialondonosierra02@gmail.com" method="POST">
+    <div>
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo">
+    </div>
+
+    <div>
+      <label for="email">Correo</label>
+      <input type="text" id="email" name="correo" placeholder="Ingrese su correo">
+    </div>
+
+    <div>
+      <label for="age">Edad</label>
+      <input type="text" id="age" name="edad" placeholder="Ingrese su edad">
+    </div>
+
+    <div>
+      <label for="option">Seleccione una opción</label>
+      <select name="option" id="option">
+        <option value="">Seleccione</option>
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+      </select>
+    </div>
+
+    <div>
+      <label>¿Planeas tener un nuevo vehículo dentro de los próximos 5 años?</label>
+      <label><input type="radio" name="vehiculo" value="Si"> Sí</label>
+      <label><input type="radio" name="vehiculo" value="No"> No</label>
+      <label><input type="radio" name="vehiculo" value="Tal vez"> Tal vez</label>
+    </div>
+
+    <div>
+      <label for="car-brand">¿Cuál es tu marca de carro favorita?</label>
+      <select name="marca" id="car-brand">
+        <option value="">Seleccione una opción</option>
+        <option value="toyota">Toyota</option>
+        <option value="chevrolet">Chevrolet</option>
+        <option value="mazda">Mazda</option>
+      </select>
+    </div>
+
+    <div>
+      <label>¿En qué medio de transporte te desplazas a menudo?</label>
+      <label><input type="radio" name="transporte" value="carro"> Carro</label>
+      <label><input type="radio" name="transporte" value="barco"> Barco</label>
+      <label><input type="radio" name="transporte" value="moto"> Moto</label>
+      <label><input type="radio" name="transporte" value="avion"> Avión</label>
+      <label><input type="radio" name="transporte" value="bicicleta"> Bicicleta</label>
+    </div>
+
+    <div>
+      <label for="suggestions">¿Tienes alguna sugerencia?</label>
+      <textarea name="suggestions" id="suggestions" placeholder="Por favor, escribe tu sugerencia aquí"></textarea>
+    </div>
+
+    <div>
+      <input id="boton" type="submit" value="Enviar">
+    </div>
+  </form>
+
+  <script src="./_JS/main.js"></script>
+</body>
+</html>
